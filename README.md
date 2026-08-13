@@ -45,9 +45,8 @@ modifies the class or the window.
 ## What is new here
 
 The preprint defines the exposure window as `e_EF = e + 5h` — the recorded stop
-date plus five half-lives. That treats a course of therapy as a single dose. It
-is wrong in one direction: a drug given q21d for a year does not begin decaying
-from a single-dose peak on its last day.
+date plus five half-lives. That treats a course of therapy as a single dose. Now, we are adding 
+the compounding logic for persistance of pharmacologica doses. 
 
 **Compounding half-life.** Dosing every `τ` days drives concentration to a
 plateau `R = 1 / (1 − (1/2)^(τ/h))` in single-dose-peak units, so decay starts
