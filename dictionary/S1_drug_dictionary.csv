@@ -1,0 +1,115 @@
+Canonical_Name,Route,iORR_Tier_Derived,Intrathecal_Flag,pts_iORR,pts_Consensus,pts_IT,CNS_Score_Total,CNS_Class,CNS_Class_Label,Evidence_Grade_G,Half_Life_Value,Half_Life_Unit,Dictionary_Version,Date_Last_Reviewed,Manual_Notes
+alpelisib,O,<20%,No,0,0,0,0,0,No CNS activity,,0.3541,days,v3,2026-06-02,
+binimetinib,O,20-39%,No,1,1,0,2,2,Moderate CNS activity,C,0.1458,days,v3,2026-06-02,Same retrospective evidence base as encorafenib (PMID 31658370). Solo BM data sparse. Combination evidence in S4 combo override.
+carboplatin,I,<20%,No,0,0,0,0,0,No CNS activity,,0.16667,days,v3,2026-06-02,
+cetuximab,I,<20%,No,0,0,0,0,0,No CNS activity,,4.6667,days,v3,2026-06-02,
+cisplatin,I,<20%,No,0,0,0,0,0,No CNS activity,,0.02,days,v3,2026-06-02,
+docetaxel,I,<20%,No,0,0,0,0,0,No CNS activity,,2.035,days,v3,2026-06-02,
+doxorubicin,I,<20%,No,0,0,0,0,0,No CNS activity,,1.5,days,v3,2026-06-02,
+gemcitabine,I,<20%,No,0,0,0,0,0,No CNS activity,,0.3333,days,v3,2026-06-02,
+liposomal doxorubicin,I,<20%,No,0,0,0,0,0,No CNS activity,,0.2083,days,v3,2026-06-02,
+paclitaxel,I,<20%,No,0,0,0,0,0,No CNS activity,,1,days,v3,2026-06-02,
+panitumumab,I,<20%,No,0,0,0,0,0,No CNS activity,,7.5,days,v3,2026-06-02,
+pertuzumab,I,<20%,No,0,0,0,0,0,No CNS activity,,18,days,v3,2026-06-02,
+ramucirumab,I,<20%,No,0,0,0,0,0,No CNS activity,,14,days,v3,2026-06-02,
+trabectedin,I,<20%,No,0,0,0,0,0,No CNS activity,,7.29,days,v3,2026-06-02,
+trastuzumab,I,<20%,No,0,0,0,0,0,No CNS activity,,28,days,v3,2026-06-02,
+trifluridine/tipiracil,O,<20%,No,0,0,0,0,0,No CNS activity,,0.09,days,v3,2026-06-02,
+vincristine,I,<20%,No,0,0,0,0,0,No CNS activity,,3.54,days,v3,2026-06-02,
+eribulin,I,<20%,No,0,0,0,0,0,No CNS activity,,1.6667,days,v3,2026-06-02,
+vinorelbine,I,<20%,No,0,0,0,0,0,No CNS activity,,1.5,days,v3,2026-06-02,
+leucovorin,I,<20%,No,0,0,0,0,0,No CNS activity,,0.25,days,v3,2026-06-02,
+darolutamide,O,<20%,No,0,0,0,0,0,No CNS activity,,0.833,days,v3,2026-06-02,
+denosumab,SC,<20%,No,0,0,0,0,0,No CNS activity,,26.5,days,v3,2026-06-02,
+pegfilgrastim,SC,<20%,No,0,0,0,0,0,No CNS activity,,1.97,days,v3,2026-06-02,
+dacarbazine,I,<20%,No,0,0,0,0,0,No CNS activity,,0.2083,days,v3,2026-06-02,
+domvanalimab,-,<20%,No,0,0,0,0,0,No CNS activity,,-,days,v3,2026-06-02,
+zimberelimab,I,<20%,No,0,0,0,0,0,No CNS activity,,12.65,days,v3,2026-06-02,
+tisotumab,I,<20%,No,0,0,0,0,0,No CNS activity,,4,days,v3,2026-06-02,
+cemiplimab,I,<20%,No,0,1,0,1,1,Minimal CNS activity,D,22,days,v3,2026-06-02,No published iORR. Dedicated trial enrolling: NCT05840770. Grade D = consensus extrapolation from anti-PD-1 class.
+fruquintinib,O,<20%,No,0,0,0,0,0,No CNS activity,,1.75,days,v3,2026-06-02,
+rucaparib,O,<20%,No,0,0,0,0,0,No CNS activity,,1.083,days,v3,2026-06-02,
+sorafenib,O,<20%,No,0,0,0,0,0,No CNS activity,,1.52,days,v3,2026-06-02,
+infliximab,I,<20%,No,0,0,0,0,0,No CNS activity,,9.5,days,v3,2026-06-02,
+ifosfamide,I,<20%,No,0,0,0,0,0,No CNS activity,,0.2916,days,v3,2026-06-02,
+daratumumab,I,<20%,No,0,0,0,0,0,No CNS activity,,18,days,v3,2026-06-02,
+dostarlimab,I,<20%,No,0,1,0,1,1,Minimal CNS activity,D,23.5,days,v3,2026-06-02,"No published iORR. STARLET trial (NCT05700721) ongoing, est. completion 2029. Grade D = consensus extrapolation."
+afatinib,O,>=60%,No,3,1,0,4,3,High CNS activity,B,1.54,days,v3,2026-06-02,"LUX-Lung 3+6 pooled BM analysis (Schuler JCO 2016, PMID 26823294): CNS ORR 72.9%, CNS PFS 8.2 mo. CNS was secondary endpoint -> Grade B."
+alectinib,O,>=60%,No,3,1,0,4,3,High CNS activity,A,1.37,days,v3,2026-06-02,"ALEX trial (Peters NEJM 2017, PMID 28586729): CNS ORR 81% in patients with BM by BICR. Prespecified CNS endpoint -> Grade A."
+atezolizumab,I,40-59%,No,2,0,0,2,2,Moderate CNS activity,A,27,days,v3,2026-06-02,
+axitinib,O,20-39%,No,1,1,0,2,2,Moderate CNS activity,D,0.175,days,v3,2026-06-02,Only case report of complete remission in RCC BM (PMC9626359). No formal iORR cohort with adequate sample size. Downgraded C->D.
+bevacizumab,I,20-39%,No,1,1,0,2,2,Moderate CNS activity,A,20,days,v3,2026-06-02,
+brigatinib,O,>=60%,No,3,1,0,4,3,High CNS activity,A,1.04,days,v3,2026-06-02,"ALTA-1L trial (Camidge NEJM 2018, PMID 30280668): intracranial ORR 78% by BICR in patients with BM. Prespecified CNS endpoint -> Grade A."
+cabozantinib,O,40-59%,No,2,1,0,3,2,Moderate CNS activity,C,2.29,days,v3,2026-06-02,"Multi-center retrospective (PMID 34673916, n=88, 15 institutions, JAMA Oncol 2021): iORR 55% (95%CI 36-73%) in progressing BM without local therapy; 47% with concomitant local therapy. Tier corrected from 20-39% to 40-59%. Grade C (retrospective). NCCN category 2A also supports consensus point."
+capecitabine,O,40-59%,No,2,1,0,3,2,Moderate CNS activity,C,0.03125,days,v3,2026-06-02,
+capmatinib,O,40-59%,No,2,1,0,3,2,Moderate CNS activity,A,0.27,days,v3,2026-06-02,
+cyclophosphamide,I,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,0.31,days,v3,2026-06-02,"iORR values from combination regimens (CMF/FEC breast BM, cyclophosphamide-based SCLC BM). No solo CNS data exists. Grade D reflects post hoc combination evidence only."
+dabrafenib,O,20-39%,No,1,1,0,2,2,Moderate CNS activity,A,0.33,days,v3,2026-06-02,
+durvalumab,I,<20%,No,0,1,0,1,1,Minimal CNS activity,D,21,days,v3,2026-06-02,No solo BM monotherapy iORR data. Combination evidence (66.7% SPEED trial) moved to S4 combo override. Pooled meta <20% for durvalumab alone. Class 1 retained via consensus point only.
+encorafenib,O,20-39%,No,1,1,0,2,2,Moderate CNS activity,C,0.1458,days,v3,2026-06-02,"Holbrook 2020 retrospective case series (PMID 31658370), encorafenib +/- binimetinib in melanoma BM. Combination evidence (70.8%) is in S4 combo override (E-BRAIN, PMID 38946469)."
+erlotinib,O,>=60%,No,3,1,0,4,3,High CNS activity,B,1.5,days,v3,2026-06-02,"CTONG-0803 phase II (Zhu Ann Oncol 2013, PMID 23129122): 82.4% PR in EGFR-mutant NSCLC BM. CNS secondary endpoint -> Grade B."
+etoposide,I,20-39%,No,1,1,0,2,2,Moderate CNS activity,B,0.305,days,v3,2026-06-02,"Carboplatin+etoposide 33% iORR lung BM (PMID 8643223); cisplatin+etoposide 37% (PMID 8395873). Combination regimens for SCLC/GCT, prospective. Also receives NCCN consensus point."
+everolimus,O,40-59%,No,2,1,0,3,2,Moderate CNS activity,A,1.25,days,v3,2026-06-02,
+exemestane,O,<20%,No,0,1,0,1,1,Minimal CNS activity,D,1,days,v3,2026-06-02,
+fluorouracil,I,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,0.01375,days,v3,2026-06-02,"59% Zotero value (item 6EMYM55E) from combination chemotherapy study in breast cancer BM, not solo fluorouracil. No monotherapy CNS data. Downgraded C->D."
+oxaliplatin,I,<20%,No,0,0,0,0,0,No CNS activity,,16.333,days,v3,2026-06-02,
+ipilimumab,I,20-39%,No,1,1,0,2,2,Moderate CNS activity,B,15.4,days,v3,2026-06-02,"Margolin Lancet Oncol 2012 (PMID 22735750): arm A (10 mg/kg, asymptomatic, no steroids) iORR 24% in melanoma BM. Arm B with steroids: 0%. Best single-cohort iORR 24% -> tier 20-39%. Combination in S4 combo override."
+irinotecan,I,<20%,No,0,0,0,0,0,No CNS activity,,0.365,days,v3,2026-06-02,Solo iORR 6.3% phase II glioma (PMID 19066728). Values 60%/28%/37% in prior table were bev+irinotecan combination data — excluded. V3 scoring corrected to class 0.
+lapatinib,O,20-39%,No,1,1,0,2,2,Moderate CNS activity,B,1,days,v3,2026-06-02,
+lenvatinib,O,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,1.1667,days,v3,2026-06-02,iORR 20%/23% from Zotero are lenvatinib+pembrolizumab combination data (RCC BM). No solo lenvatinib CNS study exists.
+leuprolide,M,<20%,No,0,0,0,0,0,No CNS activity,,0.125,days,v3,2026-06-02,
+letrozole,O,<20%,No,0,1,0,1,1,Minimal CNS activity,D,2,days,v3,2026-06-02,
+methotrexate,I,>=60%,Yes,3,1,2,6,3,High CNS activity,A,0.4775,days,v3,2026-06-02,
+nivolumab,I,20-39%,No,1,1,0,2,2,Moderate CNS activity,B,25,days,v3,2026-06-02,"ABC trial nivolumab monotherapy arm (Long Lancet Oncol 2018, PMID 29602646): iORR 20.9% in melanoma BM. Combination arm in S4 combo override."
+olaparib,O,<20%,No,0,0,0,0,0,No CNS activity,,0.62,days,v3,2026-06-02,"CORRECTED: V3 assigned pts_iORR=1 based on 36% PFS-6 from OPARATIC (PMID 32347934) — misidentified as iORR. Actual iORR=0% from phase II IDH-mutant glioma (PMID 36968138, n=15, best response SD only). No consensus point. Total score 0 -> Class 0. Removed from CNS-active list. V3 scoring update required."
+osimertinib,O,>=60%,No,3,1,0,4,3,High CNS activity,A,2,days,v3,2026-06-02,"FLAURA CNS subgroup analysis (Reungwetwattana JAMA Oncol 2018, PMID 30153097): 91% measurable CNS ORR. Prespecified CNS endpoint -> Grade A."
+palbociclib,O,<20%,No,0,0,0,0,0,No CNS activity,,1.2,days,v3,2026-06-02,
+pazopanib,O,<20%,No,0,0,0,0,0,No CNS activity,,1.29,days,v3,2026-06-02,
+pembrolizumab,I,20-39%,No,1,1,0,2,2,Moderate CNS activity,B,22,days,v3,2026-06-02,"Goldberg JAMA Oncol 2016 (PMID 27213832): KEYNOTE melanoma BM cohort, iORR 26%. Prospective cohort with standardized IC assessment -> Grade B."
+pemetrexed,I,40-59%,No,2,0,0,2,2,Moderate CNS activity,B,0.1458,days,v3,2026-06-02,Bailon Ann Oncol 2009 (PMID 19632738): 28% PR in 39 NSCLC BM patients with pemetrexed. Other series 38%. Tier 40-59% reflects higher estimates in regimen combinations. Grade B.
+pemigatinib,O,20-39%,No,1,0,0,1,1,Minimal CNS activity,A,0.6416,days,v3,2026-06-02,"Primary CNS tumors (GBM/FGFR-altered), not brain mets; FIGHT-207 CNS cohort"
+regorafenib,O,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,1.16667,days,v3,2026-06-02,"Dirven 2024 paper found is combination (regorafenib+BRAF/MEK inhibitors, IC-ORR 29%). Solo regorafenib 20% claim in V3 code unconfirmed from available literature. Downgraded C->D pending solo study verification."
+selpercatinib,O,>=60%,No,3,1,0,4,3,High CNS activity,A,1.3333,days,v3,2026-06-02,"LIBRETTO-001 CNS cohort (Drilon JCO 2022, PMID 34088726): 85% iORR in RET+ NSCLC with BM. Dedicated CNS expansion cohort -> Grade A."
+sunitinib,O,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,2.085,days,v3,2026-06-02,
+tepotinib,O,40-59%,No,2,1,0,3,2,Moderate CNS activity,A,1.3333,days,v3,2026-06-02,
+temozolomide,I,20-39%,No,1,1,0,2,2,Moderate CNS activity,A,0.075,days,v3,2026-06-02,
+topotecan,I,20-39%,No,1,1,0,2,2,Moderate CNS activity,B,0.125,days,v3,2026-06-02,Phase II SCLC BM (PMID 12175688): iORR 33%. NCCN SCLC CNS progression standard. Prospective cohort -> Grade B.
+trametinib,O,20-39%,No,1,1,0,2,2,Moderate CNS activity,D,4.5,days,v3,2026-06-02,"No dedicated solo BM trial. iORR 58% is from COMBI-MB (dabrafenib+trametinib combination, PMID 28592387), not solo trametinib. Tier 1 assigned as conservative extrapolation from combination. Grade D."
+trastuzumab-deruxtecan,I,>=60%,No,3,1,0,4,3,High CNS activity,A,5.5,days,v3,2026-06-02,"DESTINY-Breast12 (Jerusalem Nat Med 2024, PMID 39271844): 71.7% measurable CNS iORR in HER2+ breast BM. Prespecified CNS primary endpoint -> Grade A."
+tucatinib,O,40-59%,No,2,1,0,3,2,Moderate CNS activity,A,0.5,days,v3,2026-06-02,
+neratinib,O,20-39%,No,1,1,0,2,2,Moderate CNS activity,A,0.5,days,v3,2026-06-02,
+belzutifan,O,20-39%,No,1,1,0,2,2,Moderate CNS activity,A,0.583,days,v3,2026-06-02,
+entrectinib,O,>=60%,No,3,1,0,4,3,High CNS activity,A,0.8333,days,v3,2026-06-02,"STARTRK-2 and pooled analysis (Doebele Lancet Oncol 2020, PMID 32534626): 62.5% measurable CNS iORR in NTRK+ solid tumors. Prespecified CNS cohort -> Grade A."
+sacituzumab-govitecan,I,20-39%,No,1,1,0,2,2,Moderate CNS activity,B,0.98,days,v3,2026-06-02,"Phase 0 window-of-opportunity trial (PMID 39112464, NCT03995706, n=25 BCBM+rGBM): iORR 38% in BCBM cohort; intracranial SN-38 concentrations confirmed. Upgraded C->B (prospective trial with defined intracranial endpoint). ASCENT stable-BM subgroup iORR 3% excluded (inactive CNS disease)."
+selinexor,O,<20%,No,0,0,0,0,0,No CNS activity,,0.2916,days,v3,2026-06-02,
+rituximab,I,20-39%,No,1,1,0,2,2,Moderate CNS activity,B,25,days,v3,2026-06-02,IV rituximab monotherapy in relapsed/refractory PCNSL (PMID 21383331): ORR 36%. Primary CNS lymphoma = CNS-specific disease. Also NCCN PCNSL standard (HD-MTX+rituximab). Grade B.
+vinblastine,I,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,1.04166,days,v3,2026-06-02,iORR 36% from pediatric low-grade glioma phase II (Zotero 4VUEGU8Y); 25% from cisplatin+vinblastine+TMZ combination in melanoma. Neither represents adult BM monotherapy. CSF levels low (PMID 6678966). Grade D.
+tremelimumab,I,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,18,days,v3,2026-06-02,CNS responses confounded by concurrent brain radiotherapy; not isolable drug signal
+lazertinib,O,>=60%,No,3,1,0,4,3,High CNS activity,B,3.7,days,v3,2026-06-02,V3 assigned tier >=60% but primary source is amivantamab+lazertinib phase 2 (PMID 41139066): iORR 40% BM. Solo lazertinib CNS mono data not independently confirmed at >=60%. Flag for V3 tier review (possible downgrade from >=60% to 40-59%).
+ribociclib,O,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,1.77,days,v3,2026-06-02,"Only case report exists (PMID 33224000, ribociclib+anastrozole). No formal iORR cohort. Downgraded C->D."
+goserelin,SC,<20%,No,0,0,0,0,0,No CNS activity,,0.1666,days,v3,2026-06-02,
+lurbinectedin,I,<20%,No,0,0,0,0,0,No CNS activity,,2.125,days,v3,2026-06-02,
+quavonlimab ,-,<20%,No,0,0,0,0,0,No CNS activity,,,days,v3,2026-06-02,
+fulvestrant,M,<20%,No,0,0,0,0,0,No CNS activity,,40,days,v3,2026-06-02,
+bleomycin,I,<20%,No,0,0,0,0,0,No CNS activity,,0.08333,days,v3,2026-06-02,
+tarlatamab,I,20-39%,No,1,0,0,1,1,Minimal CNS activity,B,11.2,days,v3,2026-06-02,"DeLLphi-300 update; 62.5% volumetric shrinkage excluded (not iORR); 42% ORR excluded (fragile, not iORR-specific)"
+ruxolitinib,O,<20%,No,0,0,0,0,0,No CNS activity,,0.125,days,v3,2026-06-02,
+WTXX-124,-,<20%,No,0,0,0,0,0,No CNS activity,,-,days,v3,2026-06-02,
+abemaciclib,,20-39%,No,1,1,0,2,2,Moderate CNS activity,C,0.75,days,v3,2026-06-02,"Prospective dedicated BM trial (NCT02308020, n=58): iORR 5.2% -> tier <20%. Real-world PMID 39419769 (Tarlton 2024): iORR 45.1% but 80.5% had prior brain RT/surgery; CNS responses not attributable to abemaciclib alone. Class 2 retained using real-world data with caveat; Grade C. Both datasets noted for transparency."
+hyaluronidase,,<20%,No,0,0,0,0,0,No CNS activity,,,days,v3,2026-06-02,
+lorlatinib,,>=60%,No,3,1,0,4,3,High CNS activity,A,1,days,v3,2026-06-02,"CROWN trial CNS analysis (Solomon JCO 2022, PMID 35605188): 82% measurable CNS iORR by BICR. Prespecified CNS endpoint -> Grade A."
+NVL-655,-,<20%,No,0,0,0,0,0,No CNS activity,,-,days,v3,2026-06-02,
+Fludarabine,,<20%,No,0,0,0,0,0,No CNS activity,,,days,v3,2026-06-02,
+CAR-T infusion,,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,30,days,v3,2026-06-02,
+Leuprorelin,,<20%,No,0,0,0,0,0,No CNS activity,,,days,v3,2026-06-02,
+tocilizumab,,<20%,No,0,0,0,0,0,No CNS activity,,,days,v3,2026-06-02,
+relatlimab,,<20%,No,0,0,0,0,0,No CNS activity,,,days,v3,2026-06-02,
+enfortumab,,<20%,No,0,0,0,0,0,No CNS activity,,3.6,days,v3,2026-06-02,
+crizotinib,,20-39%,No,1,0,0,1,1,Minimal CNS activity,D,1.75,days,v3,2026-06-02,Retrospective pooled IC ORR ~35% (PMID 25624436). ASCO-SNO-ASTRO guidelines explicitly recommend against crizotinib for ALK+ NSCLC BM in favor of alectinib/brigatinib. Grade D reflects guideline exclusion despite retrospective signal.
+cabazitaxel,,<20%,No,0,0,0,0,0,No CNS activity,,,days,v3,2026-06-02,
+mitomycin,,<20%,No,0,0,0,0,0,No CNS activity,,,days,v3,2026-06-02,
+lomustine,,<20%,No,0,1,0,1,1,Minimal CNS activity,B,1.33,days,v3,2026-06-02,
+erdafitinib,,<20%,No,0,0,0,0,0,No CNS activity,,2.4583,days,v3,2026-06-02,
+larotrectinib,,<20%,No,0,0,0,0,0,No CNS activity,,0.1208,days,v3,2026-06-02,
+ivosidenib,,<20%,No,0,0,0,0,0,No CNS activity,,2.416,days,v3,2026-06-02,
+vorasidenib,,<20%,No,0,1,0,1,1,Minimal CNS activity,A,10,days,v3,2026-06-02,

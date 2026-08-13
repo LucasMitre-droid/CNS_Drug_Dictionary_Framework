@@ -1,0 +1,11 @@
+patient_id,drug_or_regimen,start_date,end_date
+PT001,pembrolizumab,2022-09-01,2022-11-15
+PT002,cyclophosphamide,2023-01-01,2023-01-03
+PT003,nivolumab,2022-11-01,2023-02-20
+PT004,temozolomide,2023-02-15,2023-05-15
+PT005,nivolumab + ipilimumab,2022-12-01,2023-01-25
+PT006,carboplatin,2023-01-10,2023-01-25
+PT007,bevacizumab,2022-12-01,
+PT008,veliparib,2023-01-01,2023-01-30
+PT009,pembrolizumab,2022-09-01,2022-11-15
+PT010,osimertinib,2023-01-20,2023-04-01

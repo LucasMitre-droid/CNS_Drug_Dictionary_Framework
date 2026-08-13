@@ -1,0 +1,11 @@
+patient_id,drug,cns_class,half_life_days,start_date,end_date,effective_window_end,cCNS_aD,aCNS_aD,category,flag
+PT001,pembrolizumab,2,22.0,2022-09-01,2022-11-15,2023-03-05,1.0,1.0,concurrent_and_adjuvant,
+PT002,cyclophosphamide,1,0.31,2023-01-01,2023-01-03,2023-01-04,0.0,0.0,unrelated,
+PT003,nivolumab,2,25.0,2022-11-01,2023-02-20,2023-06-25,1.0,1.0,concurrent_and_adjuvant,
+PT004,temozolomide,2,0.075,2023-02-15,2023-05-15,2023-05-15,0.0,1.0,adjuvant,
+PT005,nivolumab + ipilimumab,3,25.0,2022-12-01,2023-01-25,2023-05-30,1.0,1.0,concurrent_and_adjuvant,
+PT006,carboplatin,0,0.16667,2023-01-10,2023-01-25,2023-01-25,0.0,0.0,non_cns,
+PT007,bevacizumab,2,20.0,2022-12-01,,,,,manual_review,missing_end_date
+PT008,veliparib,0,,2023-01-01,2023-01-30,2023-01-30,0.0,0.0,non_cns,
+PT009,pembrolizumab,2,22.0,2022-09-01,2022-11-15,2023-03-05,1.0,1.0,concurrent_and_adjuvant,
+PT010,osimertinib,3,2.0,2023-01-20,2023-04-01,2023-04-11,1.0,1.0,concurrent_and_adjuvant,

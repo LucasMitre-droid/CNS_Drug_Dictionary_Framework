@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+title: CNS Drug Dictionary Framework
+message: >-
+  If you use this software or the reference dictionary, please cite the
+  preprint below.
+type: software
+version: 4.0.0
+license: CC-BY-4.0
+repository-code: https://github.com/LucasMitre-droid/CNS_Drug_Dictionary_Framework
+abstract: >-
+  Reference implementation of a drug-specific, half-life-adjusted framework for
+  classifying concurrent and adjuvant CNS-active systemic therapy exposure
+  around radiotherapy. Extends the published single-dose exposure window with a
+  compounding steady-state half-life, a dose-level coverage rule, and a sweep
+  over the definition grid.
+keywords:
+  - brain metastases
+  - radiotherapy
+  - CNS-active systemic therapy
+  - pharmacokinetics
+  - exposure classification
+  - reproducibility
+authors:
+  - family-names: Mitre
+    given-names: Lucas Pari
+    affiliation: >-
+      Department of Radiation Oncology, University of Texas Southwestern
+      Medical Center, Dallas, Texas, USA
+  - family-names: Drapkin
+    given-names: Benjamin
+    affiliation: >-
+      Division of Hematology-Oncology, Department of Internal Medicine,
+      University of Texas Southwestern Medical Center, Dallas, Texas, USA
+  - family-names: Dohopolski
+    given-names: Michael
+    affiliation: >-
+      Department of Radiation Oncology, University of Texas Southwestern
+      Medical Center, Dallas, Texas, USA
+preferred-citation:
+  type: article
+  title: >-
+    A Drug-Specific, Half-Life-Adjusted Framework for Classifying CNS-Active
+    Systemic Therapy Exposure During and After Radiotherapy
+  journal: medRxiv
+  year: 2026
+  doi: 10.64898/2026.06.11.26354463
+  authors:
+    - family-names: Mitre
+      given-names: Lucas Pari
+    - family-names: Drapkin
+      given-names: Benjamin
+    - family-names: Dohopolski
+      given-names: Michael

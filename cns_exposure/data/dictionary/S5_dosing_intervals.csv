@@ -1,0 +1,38 @@
+Canonical_Name,Tau_Days,Half_Life_Days,R,Log2_R,Days_Added,Tau_Confidence,Notes
+trametinib,1,4.5,7.004959,2.808377,12.64,high,
+trastuzumab,10,28.0,4.560154,2.189083,61.29,low,"tau rests on a single course at 10 d, which is not a standard schedule (q21d IV, or q7d weekly). Largest tail extension in the table. Label-schedule alternative: tau = 21 -> R 2.34. Override before use."
+cabozantinib,1,2.29,3.828957,1.936951,4.44,high,
+sunitinib,1,2.085,3.535672,1.821984,3.8,low,
+osimertinib,1,2.0,3.414214,1.771553,3.54,high,
+erlotinib,1,1.5,2.702414,1.434249,2.15,high,
+alectinib,1,1.37,2.518476,1.332551,1.83,high,
+atezolizumab,20,27.0,2.490238,1.316284,35.54,high,
+nivolumab,21,25.0,2.265742,1.179984,29.5,high,
+lenvatinib,1,1.1667,2.232413,1.158604,1.35,high,
+regorafenib,1,1.16667,2.232371,1.158577,1.35,low,
+dostarlimab,21,23.5,2.165735,1.114857,26.2,low,
+pembrolizumab,20,22.0,2.139131,1.097025,24.13,high,
+brigatinib,1,1.04,2.055537,1.039515,1.08,low,
+lapatinib,1,1.0,2.0,1.0,1.0,low,
+bevacizumab,20,20.0,2.0,1.0,20.0,high,
+tarlatamab,14,11.2,1.725471,0.78699,8.81,low,
+abemaciclib,1,0.75,1.657963,0.729412,0.55,low,
+ipilimumab,21,15.4,1.635595,0.709815,10.93,high,
+durvalumab,29,21.0,1.623285,0.698916,14.68,low,
+pemigatinib,1,0.6416,1.513958,0.598325,0.38,low,
+olaparib,1,0.62,1.485751,0.571192,0.35,low,
+tucatinib,1,0.5,1.333333,0.415037,0.21,high,
+dabrafenib,1,0.33,1.139474,0.188368,0.06,high,
+trastuzumab-deruxtecan,20,5.5,1.087449,0.120948,0.67,high,
+capmatinib,1,0.27,1.083129,0.115206,0.03,low,
+binimetinib,1,0.1458,1.008691,0.012485,0.0,low,
+encorafenib,1,0.1458,1.008691,0.012485,0.0,low,
+vinblastine,14,1.04166,1.00009,0.00013,0.0,low,
+methotrexate,14,0.4775,1.0,0.0,0.0,low,t_half is shorter than the dosing interval: no accumulation is possible and the compounding model reduces to the single-dose model.
+topotecan,4,0.125,1.0,0.0,0.0,low,t_half is shorter than the dosing interval: no accumulation is possible and the compounding model reduces to the single-dose model.
+capecitabine,1,0.03125,1.0,0.0,0.0,high,t_half is shorter than the dosing interval: no accumulation is possible and the compounding model reduces to the single-dose model.
+etoposide,20,0.305,1.0,0.0,0.0,high,t_half is shorter than the dosing interval: no accumulation is possible and the compounding model reduces to the single-dose model.
+irinotecan,20,0.365,1.0,0.0,0.0,low,t_half is shorter than the dosing interval: no accumulation is possible and the compounding model reduces to the single-dose model.
+fluorouracil,20,0.01375,1.0,0.0,0.0,high,t_half is shorter than the dosing interval: no accumulation is possible and the compounding model reduces to the single-dose model.
+pemetrexed,20,0.1458,1.0,0.0,0.0,high,t_half is shorter than the dosing interval: no accumulation is possible and the compounding model reduces to the single-dose model.
+neratinib,28,0.5,1.0,0.0,0.0,low,t_half is shorter than the dosing interval: no accumulation is possible and the compounding model reduces to the single-dose model.

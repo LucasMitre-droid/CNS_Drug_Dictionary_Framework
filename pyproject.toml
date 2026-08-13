@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cns-exposure"
+version = "4.0.0"
+description = "Reproducible CNS-active systemic therapy exposure variables around radiotherapy"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "CC-BY-4.0" }
+authors = [
+    { name = "Lucas Pari Mitre" },
+    { name = "Benjamin Drapkin" },
+    { name = "Michael Dohopolski" },
+]
+keywords = [
+    "brain-metastases",
+    "radiotherapy",
+    "pharmacokinetics",
+    "exposure-classification",
+    "reproducibility",
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = ["pandas>=1.5"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7", "numpy>=1.24"]
+
+[project.urls]
+Repository = "https://github.com/LucasMitre-droid/CNS_Drug_Dictionary_Framework"
+Preprint = "https://doi.org/10.64898/2026.06.11.26354463"
+
+[project.scripts]
+cns-exposure = "cns_exposure.cli:main"
+
+[tool.setuptools]
+packages = ["cns_exposure", "cns_exposure.plot"]
+
+[tool.setuptools.package-data]
+cns_exposure = [
+    "data/dictionary/*.csv",
+    "data/dictionary/*.md",
+    "data/examples/*.csv",
+    "data/examples/*.md",
+]

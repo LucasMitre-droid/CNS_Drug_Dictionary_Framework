@@ -1,0 +1,47 @@
+# No clinical data belongs in this repository. These patterns are a backstop,
+# not a substitute for checking what you are about to commit.
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.parquet
+*.db
+*.sqlite
+patient*.csv
+*_phi*
+*identifi*
+*crosswalk*
+
+# The reference tables and the worked example are the only data files tracked.
+!dictionary/*.csv
+!examples/*.csv
+
+# Analysis output. Figures rendered without --deidentify carry whatever
+# patient_id was supplied; keep them out by default.
+sweep/
+classified.csv
+swimmer.png
+lanes.csv
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.tmp/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

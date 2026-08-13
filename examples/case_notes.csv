@@ -1,0 +1,11 @@
+patient_id,what_this_case_tests
+PT001,"Long h, stopped 61 days before RT; EF window bridges gap -> concurrent + adjuvant"
+PT002,Short h (0.31 d); cleared 11 days before RT start -> unrelated
+PT003,Drug spans RT window and extends 15 days past RT end -> concurrent + adjuvant
+PT004,Starts 10 days after RT end; temozolomide h=0.075 d -> adjuvant only
+PT005,"Combination override: nivolumab+ipilimumab -> class 3; h_combo=max(25,15.4)=25 d"
+PT006,Carboplatin class 0; present during RT but non-CNS -> neither label
+PT007,Missing end date -> flagged for manual review; no classification
+PT008,Veliparib not in dictionary -> unmatched drug flag; default class 0
+PT009,Single-fraction SRS (t0=t1=2023-01-15); same drug as PT001 -> concurrent + adjuvant
+PT010,Osimertinib starts during RT (day 5) and continues -> concurrent + adjuvant
