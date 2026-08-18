@@ -77,11 +77,42 @@ default: `--rule window --model box --k 5` reproduces the original classifier.
   at exact ties — the boundary at which the two accumulation models must agree
   by construction.
 
-### Known issues carried from the published dictionary
+### Fixed in the dictionary
 
-`durvalumab` and `irinotecan` record a total score of 1 with all component
-points 0; `krazati` aliases to `adagrasib`, which has no row in S1. Reported by
-the validator and documented in `dictionary/README.md`, not silently corrected.
+Three errors the validator reported against the published dictionary are
+corrected in the shipped `v3` tables. Each was corrected in the data, against
+its source, rather than by relaxing the check that caught it.
+
+- **`durvalumab`** recorded a total score of 1 with all three component point
+  columns 0. `pts_Consensus` now reads 1, which is the consensus point
+  `Manual_Notes` described all along. Class 1, unchanged.
+- **`irinotecan`** recorded the same pattern, with an open question over
+  `pts_iORR`. Closed against the source: the iORR figures in the earlier table
+  were bevacizumab + irinotecan combination data, and solo iORR is 6.3%
+  (PMID 19066728). Scored 0 on every component, **class 0** — irinotecan leaves
+  the CNS-active set, which is the one correction here that changes an exposure
+  variable.
+- **`krazati`** aliased to `adagrasib`, which had no row in S1. The alias is
+  removed, so the name now surfaces as an unmatched class-0 row instead of
+  resolving to a canonical name the dictionary cannot score. A scored
+  `adagrasib` row is still to be added.
+
+`validate` reports no errors against `v3`. The two remaining warnings — nine
+class-0 agents with no half-life, and one deliberately redundant combination
+override — are documented in `dictionary/README.md`.
+
+### Removed
+
+- **`NVL-655` and `WTXX-124`** are dropped from `S1` and `S3`, taking the
+  dictionary from 114 scored agents to 112 and class 0 from 58 to 56. Both were
+  investigational agents carried under a trial code rather than an INN, with no
+  FDA label and no half-life. Neither had an alias in `S2` or a dosing row in
+  `S5`, so nothing else referenced them. Exposure to either name is unaffected
+  in class terms — both scored 0 — but it now resolves as an **unmatched**
+  class-0 row carrying the unrecognised name rather than as a scored one. That
+  is a real change in what the dictionary claims: a scored 0 asserts the agent
+  was reviewed and found non-CNS-active, while an unmatched row asserts only
+  that the dictionary does not know the name.
 
 ## 3.0.0
 

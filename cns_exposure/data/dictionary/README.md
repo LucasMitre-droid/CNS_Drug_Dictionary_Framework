@@ -10,7 +10,7 @@ the provenance note below.
 
 ## S1_drug_dictionary.csv
 
-114 agents, one row each. The scored dictionary.
+112 agents, one row each. The scored dictionary.
 
 | Column | Meaning |
 |---|---|
@@ -31,9 +31,10 @@ correction against an earlier version, an iORR that turned out to come from a
 combination rather than monotherapy, or a class retained on a consensus point
 alone.
 
-Class distribution: 57 class 0, 20 class 1, 26 class 2, 11 class 3. Twelve
+Class distribution: 56 class 0, 19 class 1, 26 class 2, 11 class 3. Nine
 agents carry no half-life; for those the effective window falls back to the
-recorded stop date, so they can only ever be under-counted as exposure.
+recorded stop date, so they can only ever be under-counted as exposure. All
+nine are class 0 — see the known issues below.
 
 ## S2_alias_normalization.csv
 
@@ -108,13 +109,32 @@ does the reconstruction; `tau_attributable(...)` applies the guard.
 than silently corrected, because the dictionary is a record of what was
 declared and a validator that rewrites its input destroys that record.
 
+`v3` reports **no errors**. Two warnings stand, and neither changes the class of
+any CNS-active agent.
+
 | Severity | Item | Issue |
 |---|---|---|
-| error | `durvalumab` | `CNS_Score_Total` is 1 but all three component point columns are 0. `Manual_Notes` says the class is retained on a consensus point, so `pts_Consensus` should read 1. |
-| error | `irinotecan` | same pattern: total 1, components all 0. Its own `Manual_Notes` records the open question, noting that the earlier `pts_iORR = 1` may need correcting to 0 — which would move it to class 0 and out of the CNS-active set entirely. |
-| error | `krazati` | alias resolves to `adagrasib`, which has no row in S1 despite being graded elsewhere. Exposure to adagrasib is currently classified as unmatched, class 0. |
-| warning | `tucatinib + trastuzumab + capecitabine` | override class 2 does not exceed its highest component class, so the override changes nothing. |
-| warning | 12 agents | no half-life recorded. |
+| warning | 9 agents | no usable half-life. Every one is class 0, so none contributes to CNS-active exposure and the gap cannot move an exposure call. Two have no value to record: `domvanalimab` is investigational with no FDA label, and `quavonlimab` is unresolved manual review. The other seven — `cabazitaxel`, `fludarabine`, `hyaluronidase`, `leuprorelin`, `mitomycin`, `relatlimab`, `tocilizumab` — name a specific FDA label in `S3` whose value was never transcribed into `S1`. That is a transcription gap, not an evidence gap, and it is the one item here worth closing. |
+| warning | `tucatinib + trastuzumab + capecitabine` | override class 2 does not exceed its highest component class, so the override changes nothing. Deliberate: `tucatinib` already reaches class 2 alone, and the row exists so that the HER2CLIMB regimen is matched and labelled as a unit rather than silently decomposing into components. The warning is the validator correctly reporting a redundancy that is there on purpose. |
+
+Two encodings of a missing half-life appear in `S1` and they are not
+interchangeable: `-` means no such value exists — the agent is investigational,
+or its half-life is not applicable — while an empty cell means the value was not
+recorded. Both coerce to missing, so the classifier treats them alike; the
+distinction survives only for a reader deciding whether a gap is worth chasing.
+
+### Resolved in v3
+
+Earlier versions of this table carried three errors. All three are corrected in
+the shipped `v3` files, and the corrections are recorded here rather than
+dropped, because a known-issues list that quietly loses entries is no more of a
+record than a validator that rewrites its input.
+
+| Item | Was | Now |
+|---|---|---|
+| `durvalumab` | `CNS_Score_Total` 1 with all three component columns 0 | `pts_Consensus = 1`, which is the consensus point `Manual_Notes` always described. Class 1, unchanged. |
+| `irinotecan` | same pattern, with `Manual_Notes` recording an open question over `pts_iORR` | question closed against the source: the 60%/28%/37% figures were bevacizumab + irinotecan combination data, and solo iORR is 6.3% (PMID 19066728). All components 0, total 0, **class 0** — irinotecan is out of the CNS-active set. |
+| `krazati` | alias resolved to `adagrasib`, which had no `S1` row | alias removed. Neither name appears in any table, so `krazati` now resolves as an unmatched class-0 row carrying its own name, which is visible in the output. Adding a scored `adagrasib` row remains open work. |
 
 ## Substituting your own
 
