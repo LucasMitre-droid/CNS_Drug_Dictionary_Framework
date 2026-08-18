@@ -259,8 +259,8 @@ definition.
 ## The dictionary
 
 Five tables in [`dictionary/`](dictionary/), documented in
-[`dictionary/README.md`](dictionary/README.md): 114 scored agents with
-half-lives and evidence grades, 114 aliases, half-life provenance, 6
+[`dictionary/README.md`](dictionary/README.md): 112 scored agents with
+half-lives and evidence grades, 113 aliases, half-life provenance, 6
 combination overrides, and dosing intervals with accumulation factors for 37
 agents.
 

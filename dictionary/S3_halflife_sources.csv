@@ -90,16 +90,14 @@ lazertinib,3.7,days,FDA_label,"LAZCLUZE (LAZERTINIB) TABLET, FILM COATED [JANSSE
 ribociclib,1.77,days,FDA_label,"KISQALI (RIBOCICLIB) TABLET, FILM COATED [NOVARTIS PHARMACEUTICALS CORPORATION]",https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8
 goserelin,0.1666,days,FDA_label,ZOLADEX (GOSERELIN) IMPLANT [TERSERA THERAPEUTICS LLC],https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3
 lurbinectedin,2.125,days,FDA_label,"ZEPZELCA (LURBINECTEDIN) INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION [JAZZ PHARMACEUTICALS, INC.]",https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=632bb50c-3bcb-4c85-9056-fc33410550ae
-quavonlimab ,,days,manual_review,,https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=quavonlimab%C2%A0
+quavonlimab,,days,manual_review,,https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=quavonlimab%C2%A0
 fulvestrant,40,days,FDA_label,"FULVESTRANT INJECTION, SOLUTION [SAGENT PHARMACEUTICALS]",https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d5ae9e07-73b0-4063-a9e4-0ffc5614c2b8
 bleomycin,0.08333,days,FDA_label,"BLEOMYCIN POWDER, FOR SOLUTION [NORTHSTAR RX LLC]",https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6824b1e1-e5fa-4371-ade9-1346e12ab0c7
 tarlatamab,11.2,days,FDA_label,"IMDELLTRA (AMG757) (TARLATAMAB-DLLE) KIT [AMGEN, INC]",https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e7b6163-5d83-42ea-82c9-cf7620cdc782
 ruxolitinib,0.125,days,FDA_label,OPZELURA (RUXOLITINIB) CREAM [INCYTE CORPORATION],https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24da5509-6631-4795-9d42-273faecd08e7
-WTXX-124,-,days,not_applicable,Investigational / no FDA label,
 abemaciclib,0.75,days,FDA_label,VERZENIO (ABEMACICLIB) TABLET [ELI LILLY AND COMPANY],https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06
 hyaluronidase,,days,FDA_label,"OPDIVO QVANTIG (NIVOLUMAB AND HYALURONIDASE-NVHY) INJECTION, SOLUTION [E.R. SQUIBB & SONS, L.L.C.]",https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7f8c38fa-42f4-4387-9e8c-7a1c66855d8b
 lorlatinib,1,days,FDA_label,"LORBRENA (LORLATINIB) TABLET, FILM COATED [U.S. PHARMACEUTICALS]",https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=004f93d7-a1cd-4b67-9207-31cdcb5c5976
-NVL-655,-,days,not_applicable,Investigational / no FDA label,
 Fludarabine,,days,FDA_label,"FLUDARABINE PHOSPHATE INJECTION, SOLUTION [SAGENT PHARMACEUTICALS]",https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20e5acf0-90b7-45c8-be78-91eaf77c9ac0
 CAR-T infusion,30,days,not_applicable,Investigational / no FDA label,
 Leuprorelin,,days,FDA_label,LEUPROLIDE ACETATE (LEUPROLIDE ACETATE) KIT [ZYDUS PHARMACEUTICALS USA INC.],https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=35634415-000f-47db-9bd7-9e16eef3f02e
